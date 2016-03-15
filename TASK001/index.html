@@ -7,14 +7,17 @@
 <body>
     <header>
         <h1>网站一级标题</h1>
+    </header>
+    
+    <nav>
         <ul>
             <li href="#"><a href="#">导航链接一</a></li>
             <li href="#"><a href="#">导航链接二</a></li>
             <li href="#"><a href="#">导航链接三</a></li>
             <li href="#"><a href="#">导航链接四</a></li>
         </ul>
-    </header>
-    
+    </nav>
+
     <article>
         <div class="content">
             <h2>文章一级标题</h2>
@@ -41,48 +44,46 @@
                 <li>列表项目三</li>
             </ul>
             <h2>图片</h2>
-            <dl>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="img/logo.png" alt="duohuo logo">
-                </li>
-            </dl>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
+            <figure>
+                <p>好看的图片</p>
+                <img src="img/logo.png" alt="duohuo logo">
+            </figure>
         </div>
         <div class="content">
             <h2>最后一篇文章一级标题</h2>
@@ -139,21 +140,18 @@
         <div class="signUp">
             <h2>侧栏注册窗口标题</h2>
             <form>
-                <section>
-                    <label>请输入邮箱地址：</label>
-                    <input type="text" name="email" />
-                    <p>邮箱地址请按要求格式输入</p>
-                </section>
-                <section>
-                    请输入密码：<input type="password" name="password" />
-                    请重复输入密码：<input type="password" name="repassword" />
-                    <p>密码请为6-16位英文数字</p>
-                </section>
+                <label for="email">请输入邮箱地址：</label>
+                <input type="text" id="email" pattern="^.+@.+$"/>
+                <p>邮箱地址请按要求格式输入</p>
+                <label for="password">请输入密码：</label>
+                <input type="password" id="password" pattern="[A-z\d]{6,16}"/>
+                <label for="repassword">请重复输入密码：</label><input type="password" id="repassword" pattern="[A-z\d]{6,16}"/>
+                <p>密码请为6-16位英文数字</p>
                 <br />
                 <section>
                     <label>性别：</label>
-                    <input type="radio" name="gender" value="0" checked="checked" />男
-                    <input type="radio" name="gender" value="1" />女
+                    <label><input type="radio" name="gender" value="0" checked="checked" />男</label>
+                    <label><input type="radio" name="gender" value="1" />女</label>
                 </section>
                 <section>
                     <label>城市：</label>
@@ -165,13 +163,13 @@
                 </section>
                 <section>
                     <label>爱好：</label>
-                    <input type="checkbox" name="hobby" value="0" />运动
-                    <input type="checkbox" name="hobby" value="1" />艺术
-                    <input type="checkbox" name="hobby" value="2" />科学
+                    <label><input type="checkbox" id="hobby" value="0" />运动</label>
+                    <label><input type="checkbox" id="hobby" value="1" />艺术</label>
+                    <label><input type="checkbox" id="hobby" value="2" />科学</label>
                 </section>
                 <section>
-                    <label>个人描述：</label>
-                    <textarea name="description">这是一个多行输入框，输入您的个人描述</textarea>
+                    <label for="description">个人描述：</label>
+                    <textarea id="description">这是一个多行输入框，输入您的个人描述</textarea>
                 </section>
                 <input type="submit" value="确认提交" />
             </form>
