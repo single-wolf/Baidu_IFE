@@ -1,6 +1,7 @@
 # Baidu_IFE
 [团队页面](http://duohuostudio.github.io/)
-[任务一]
+[任务一](http://zzj7460.github.io/Baidu_IFE/TASK001/)
+[任务二](http://zzj7460.github.io/Baidu_IFE/TASK002/)
 
 ## IFE春季班第一阶段任务
 #### 第一阶段的主要目标是帮助大家 了解、认识、学习、掌握HTML及CSS。第一阶段任务从 3月14日 开始，持续到 4月3日。当然，您也可以在这个时间以后继续自行实践练习。
