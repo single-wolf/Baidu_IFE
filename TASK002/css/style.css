@@ -93,7 +93,7 @@ article .picInfo{
 article figure img{
     width: 80px;
     height: 80px;
-    margin: 20 10px;
+    margin: 20px 10px;
     position: absolute;
 }
 article ol{
@@ -103,7 +103,7 @@ article ol li{
     margin: 5px;
     font-size: 15px;
 }
-article .content .tabletitle{
+article .content {
     text-indent: 0em;
 }
 article .bg{
