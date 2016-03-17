@@ -5,16 +5,12 @@
 h2 h3 p a{
     font-style: 微软雅黑;
 }
-body{
-    background-color: #212121;
-}
 .center{
     max-width: 1280px;
     margin: 0 auto;
 }
 .rborder{
     width: 1278px;
-    border-right: 2px solid #FFFFFF;
 }
 .clear{
     clear: both;
