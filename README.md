@@ -3,7 +3,7 @@
 [团队页面](http://duohuostudio.github.io/)  
 [任务一](http://zzj7460.github.io/Baidu_IFE/TASK001/)  
 [任务二](http://zzj7460.github.io/Baidu_IFE/TASK002/)  
-[任务三](http://zzj7460.github.io/Baidu_IFE/TASK003/) 
+[任务三](http://zzj7460.github.io/Baidu_IFE/TASK003/)  
 [任务四](http://zzj7460.github.io/Baidu_IFE/TASK004/)   
 
 ## IFE春季班第一阶段任务
