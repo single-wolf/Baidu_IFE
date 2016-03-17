@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-style: 微软雅黑; 
+    font-size: 20px;
+}
+.card{
+    border: 1px solid #999;
+    background-color: #FFF;
+    margin: 20px;
+    padding: 20px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.bg{
+    border: 1px solid #999;
+    position: absolute;
+    height: auto;
+    background-color: #eee;
+    margin: 20px;
+}
+.bg header img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.bg aside{
+    padding-bottom: 0;
+}
+.bg aside img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.bg article{
+    overflow: auto;
+}
+.bg article p{
+    text-indent: 2em;
+    font-size: 18px;
+    font-weight: 400;
+}
