@@ -6,8 +6,10 @@
 [任务三](http://zzj7460.github.io/Baidu_IFE/TASK003/)  
 [任务四](http://zzj7460.github.io/Baidu_IFE/TASK004/)   
 [任务五](http://zzj7460.github.io/Baidu_IFE/TASK005/)    
+[任务六](http://zzj7460.github.io/Baidu_IFE/TASK006/)    
 [任务十三](http://zzj7460.github.io/Baidu_IFE/TASK013/)    
-[任务十四](http://zzj7460.github.io/Baidu_IFE/TASK014/)
+[任务十四](http://zzj7460.github.io/Baidu_IFE/TASK014/)   
+[任务十五](http://zzj7460.github.io/Baidu_IFE/TASK015/)
 
 ## IFE春季班第一阶段任务
 #### 第一阶段的主要目标是帮助大家 了解、认识、学习、掌握HTML及CSS。第一阶段任务从 3月14日 开始，持续到 4月3日。当然，您也可以在这个时间以后继续自行实践练习。
