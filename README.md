@@ -6,6 +6,7 @@
 [任务三](http://zzj7460.github.io/Baidu_IFE/TASK003/)  
 [任务四](http://zzj7460.github.io/Baidu_IFE/TASK004/)   
 [任务五](http://zzj7460.github.io/Baidu_IFE/TASK005/)    
+[任务六](http://zzj7460.github.io/Baidu_IFE/TASK006/)    
 [任务十三](http://zzj7460.github.io/Baidu_IFE/TASK013/)    
 [任务十四](http://zzj7460.github.io/Baidu_IFE/TASK014/)   
 [任务十五](http://zzj7460.github.io/Baidu_IFE/TASK015/)
