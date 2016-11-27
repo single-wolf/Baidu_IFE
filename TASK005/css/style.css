@@ -28,6 +28,7 @@ header nav{
     margin-right: 10px;
 }
 header nav ul li{
+    color: #FFFFFF;
     float: left;
     margin: 15px 10px;
 }
@@ -47,6 +48,7 @@ article .content{
     box-shadow: 1px 1px 1px #888888;
     padding: 35px 20px;
     text-indent: 0em;
+    border-radius: 8px
 }
 article h2{
     font-weight: 500;
@@ -129,6 +131,7 @@ article .aside{
     position: absolute;
     top: 60px;
     right: 0px;
+    border-radius: 8px;
 }
 article .aside .title{
     border-left: 4px solid #DDDDDD;
@@ -173,11 +176,11 @@ article .aside .button{
 
 footer{
     height: 50px;
+    border: 1px solid #000;
     padding-top: 20px;
-    background-color: #000000;
 }
 footer p{
-    color: #FFFFFF;
+    color: #999;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
